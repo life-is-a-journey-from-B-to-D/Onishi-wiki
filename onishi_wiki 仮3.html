@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width">
+        <title>eiko_wiki</title>
+        <style>
+            .link_1{
+                font-weight: bolder;
+            }
+            .link_1:link {
+                color: blue;
+            }
+            .link_1:visited{
+                color: darkslateblue;
+            }
+            .link_1:hover{
+                color: orange;
+            }
+            .link_1:active{
+                color: red;
+            }
+            .link_1:hover::after{
+                position: absolute;
+                content: "しまいなさい！";
+                top: var(--X);
+                left: var(--Y);
+                width: 150px;
+                padding: 5px;
+                border: 2px solid black;
+                background-color: white;
+                border-radius: 5px;
+                color: black;
+            }
+            .iroiro_list{
+                margin-right: 50px;
+            }
+            .iroiro_list::before{
+                content: "";
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                background-image: url('/Users/shirotadaigo/Downloads/image_5.webp');
+                background-position: center;
+                background-size: contain;
+                margin-left: 10px;
+            }
+            .iroiro_list2::before{
+                content: "";
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                background-image: url("/Users/shirotadaigo/Downloads/image0.jpeg");
+                background-position: center;
+                background-size: contain;
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="/Users/shirotadaigo/Downloads/CTA.png" width="10%" height="10%">
+        <h1 style="display: inline;">大西ウィキ</h1>
+        <input type="text" name="shiraberu" value="大西ウィキ内を調べる" size="30px" style="margin-left: 10px; border-radius: 0px;">
+        <input type="button" name="kensaku" value="検索" style="margin-left: opx;">
+        <hr>
+        <p style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic; margin-bottom: 0px; margin-top: 0px;">英文の　ルール決めるは　英文法　型を決めるは　動詞の語法</p>
+        <hr>
+        <div class="aisatu" style="border: 1px solid lightskyblue; border-radius: 10px; padding: 5px 20px 20px 5px;">
+            <h1 style="font-size: xx-large;">大西ウィキへようこそ</h1>
+            <p style="font-size: small;">ここは誰でも英文の仕組みを理解できるルールブックです。</p>
+            <p style="text-align: right; font-size: smaller;">12個の時制をあなたと</p>
+        </div>
+        <div class="main_block" style="display: flex;">
+            <div class="kirinuki" style="border: 1px solid lightskyblue; border-radius: 10px; margin-top: 5px; margin-right: 5px;">
+                <h3 style="font-size: larger;">切り抜き記事</h3>
+                <p><span>英語長文では本文にとりかかる前に、<a href="https://qiita.com/taqumo/items/b221e689c8c27500b47a" class="link_1" id="link_1">まず設問を読みましょう。</a>そうすることで本文を読む前に、どんな内容の英文なのか予想つきます。また設問の内容を把握していれば緩急をつけて本文を読み進めることができるのです。解答時間が限られていますので、設問に先に目を通すとこは、効率的に問題を解くのにどうしても欠かせない手順です。</span></p>
+                <hr>
+                <ul>
+                    <li><span>ONE PARAGRAPH ONE TOPIC 「一つのパラグラフには一つのテーマ・アイデア」がある（筆者の言いたいことは一つ！）</span></li>
+                    <li><span>パラグラフの最終文は、次のパラグラフの予告・橋渡しの役割を果たすことが多い</span></li>
+                </ul>
+                <h3 style="text-align: left;">新しい記事</h3>
+                <ul>
+                    <li><span>筆者の"I"が出てくるところ（weやyouの場合もある）I insist,I believe,I notice,I trust,I accept,I agree,I confirm,I think,I suppose,it seems to me,in my opinion,my view is,I doubt,I am afraidなど</span></li>
+                    <li><span>価値判断を示す語句のあるところ。（特に相対的意味の形容詞・法助動詞）善悪、美醜、快不快、真偽、高低、尊屈、好悪　など、「筆者の判断」を示す語句に特に注目。</span></li>
+                    <li><span>一般論などを述べた後に、対立表現（but, however, on the contraryなど）を用いて筆者自身の考えを示す。</span></li>
+                </ul>
+                <h3 style="text-align: left;">新しい画像</h3>
+                <div class="new_picture" style="display: flex;">
+                    <div style="display: block; width: 48%; height: 100%;">
+                        <img src="/Users/shirotadaigo/Downloads/cta copy.png"style="margin-right: 10px;" width="90%" height="80%">
+                        <p>moonですよねえ</p>
+                    </div>
+                    <div style="display: block; width: 48%; height: 100%;"> 
+                        <img src="/Users/shirotadaigo/Downloads/CTA.png" width="90%" height="80%">
+                        <p>doodleですよねえ</p>
+                    </div>
+                </div>
+                <h3 style="text-align: left;">強化記事</h3>
+                <ul>
+                    <li><span>そして次に内容をイメージしながら読みましょう。「イメージしながら読む」というのは英文を読み進めるときに極力英語のまま読むということです。一文一文和訳しなければ先へ読めないというのでは、どうしても時間がかかりすぎてしまいます。</span></li>
+                    <li><span>具体的に英語のまま読むということは、英語を読んだときに直接頭の中で内容を想像できるようになるということです。これができるようになるためには、普段から単語を覚える時も日本語の意味だけでなく頭の中でイメージと一緒に覚えることがおすすめです。</span></li>
+                </ul>
+            </div>
+            <div style="text-align: center; margin-top: 5px; border: 1px solid lightskyblue; border-radius: 10px;" class="syashin">
+                <div class="today_picture" style="display: block;">
+                    <h3 style="text-align: left;">今日の一枚</h3>
+                    <img src="/Users/shirotadaigo/Downloads/CTA.png" width="100%" height="50%">
+                    <p style="text-align: center;">マジで面白い野球ゲーム doodle baseball</p>
+                </div>
+                <h3 style="text-align: left; margin-bottom: 0px;">今日は何日</h3>
+                <div class="koyomi" style="line-height: 1; text-align: left;">
+                    <ul>
+                        <li>グレゴリオ暦: 2024年12月1日</li>
+                        <li>天保暦: 2024年11月1日</li>
+                        <li>仏暦: 2567年12月1日</li>
+                        <li>イスラム暦: 1446年5月29日</li>
+                        <li>皇暦: 2684年12月1日</li>
+                        <li>ユダヤ暦: 5785年8月30日</li>
+                        <li>エチオピア暦: 12017年3月22日</li>
+                        <li>コプト暦: 1741年3月22日</li>
+                        <li>ユリウス暦: 2024年11月18日</li>
+                        <li>フランス革命暦: 233年3月11日</li>
+                        <li>インド国定暦: 1946年9月10日</li>
+                        <li>イラン暦: 1403年9月11日</li>
+                    </ul>
+                </div>
+                <div class="today_news" style="text-align: left;">
+                    <h3>今日のニュース</h3>
+                    <ul>
+                        <li>しまいなさい！</li>
+                        <li>そのままでー！</li>
+                        <li>こないださあ〜</li>
+                        <li>そうしたらば〜</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sub_block" style="display: block;">
+            <div style="border: 1px solid lightskyblue; border-radius: 10px; margin-top: 5px;">
+                <h4><span>大西ウィキは非営利団体であるフレーズクローズ財団によって運営されています。以下の<s>従属節</s>姉妹プロジェクトも運営しています。</span></h4>
+                <div>
+                    <div style="display: inline-block;">
+                        <p class="iroiro_list">名詞相当語句</p>
+                        <p class="iroiro_list">ディスコースマーカー</p>
+                        <p class="iroiro_list">パワフルコード</p>
+                        <p class="iroiro_list">そうしたらば蟹</p>
+                        <p class="iroiro_list">相原雑談全集</p>
+                    </div>
+                    <div style="display: inline-block;"> 
+                        <p class="iroiro_list2">柴野生誕祭公式サイト</p>
+                        <p class="iroiro_list2">1117kmファンクラブ</p>
+                        <p class="iroiro_list2">論証責任集合体</p>
+                        <p class="iroiro_list2">君たちの古典の力</p>
+                        <p class="iroiro_list2">ほいっ！あ〜そっちか〜</p>
+                    </div>
+                </div>
+            </div>
+            <div style="border: 1px solid lightskyblue; border-radius: 10px; margin-top: 5px;">
+                <p><span>大西ウィキは日本語・英語・フランス語をはじめ３の言語で執筆されています。それは大西さんがトリリンガルでああることに由来します。全ての言語版については大西ウィキの一覧や全言語版の統計をご覧ください。</span></p>
+                <p></p>
+                <p>English・français・日本語</p>
+                <p></p>
+                <p>大西ウィキの運営は皆様の英文の仕組みの理解によって成り立っております。</p>
+            </div>
+        </div>
+        <script text="text/javascript">
+            var today = new Date();
+            var year = today.getFullYear();
+            var month = today.getMonth()+1;
+            var day = today.getDate();
+            var seireki = year + '年' + month + '月' + day + '日'
+            window.addEventListener('load', function(){
+                document.getElementById('link_1').addEventListener('mouseover', logPosition);
+            });
+            function logPosition(event) {
+                mouse_X = event.clientX;
+                mouse_Y = event.clientY;
+                document.documentElement.style.setProperty('--X', mouse_X);
+                document.documentElement.style.setProperty('--Y', mouse_Y);
+            };
+        </script>
+    </body>
+</html>
